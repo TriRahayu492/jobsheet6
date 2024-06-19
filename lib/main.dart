@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MainApp());
-}
-
 class TeksUtama extends StatelessWidget {
   final String teks1;
   final String teks2;
@@ -81,7 +77,7 @@ class MainApp extends StatelessWidget {
                 teks2: '',
               ),
               TeksUtama(
-                teks1: 'SEPTIANI PUTRI',
+                teks1: 'SEPTIANI',
                 teks2: '',
               ),
             ],
